@@ -1,0 +1,222 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <ItemGroup>
+    <Filter Include="Source Files">
+      <UniqueIdentifier>{4FC737F1-C7A5-4376-A066-2A32D752A2FF}</UniqueIdentifier>
+      <Extensions>cpp;c;cc;cxx;c++;cppm;ixx;def;odl;idl;hpj;bat;asm;asmx</Extensions>
+    </Filter>
+    <Filter Include="Header Files">
+      <UniqueIdentifier>{93995380-89BD-4b04-88EB-625FBE52EBFB}</UniqueIdentifier>
+      <Extensions>h;hh;hpp;hxx;h++;hm;inl;inc;ipp;xsd</Extensions>
+    </Filter>
+    <Filter Include="Resource Files">
+      <UniqueIdentifier>{67DA6AB6-F800-4c08-8B7A-83BB121AAD01}</UniqueIdentifier>
+      <Extensions>rc;ico;cur;bmp;dlg;rc2;rct;bin;rgs;gif;jpg;jpeg;jpe;resx;tiff;tif;png;wav;mfcribbon-ms</Extensions>
+    </Filter>
+    <Filter Include="Header Files\video_handler">
+      <UniqueIdentifier>{e5776928-d2ba-4e1a-8c49-848fd7c5b627}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image_handler">
+      <UniqueIdentifier>{f6ff454e-251d-442c-ac96-2f63de0be52e}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Header Files\image_segmenter">
+      <UniqueIdentifier>{4d50b831-5517-4975-89c7-3bb3d5160c98}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image_handler">
+      <UniqueIdentifier>{5f49fff2-f170-40d8-a057-e6e71fc113bd}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\video_handler">
+      <UniqueIdentifier>{4c97f911-92a2-4a2c-ad1e-d928e1e0d2e1}</UniqueIdentifier>
+    </Filter>
+    <Filter Include="Source Files\image_segmenter">
+      <UniqueIdentifier>{f9785081-752a-47b2-bfd0-4e4371532707}</UniqueIdentifier>
+    </Filter>
+  </ItemGroup>
+  <ItemGroup>
+    <ClInclude Include="async_images_worker.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="color_distance_counter.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="disjoint_set.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="length.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="edge_from_image_provider.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="edge_provider_4connected.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="edge.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="element_id.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="element_id_exception.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_segmenter.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_based_parameter_segmentation.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_based_frame_segmenter.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="graph_based_segment_service_functions.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="Image.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="OpenCV.h">
+      <Filter>Header Files</Filter>
+    </ClInclude>
+    <ClInclude Include="video_handler.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_video_handler_exception.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_video_handler.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_safe_input_video.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="input_video_exception.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="input_video.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="output_video.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="output_video_exception.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="frame_handler.h">
+      <Filter>Header Files\image_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="pixel_painter.h">
+      <Filter>Header Files\image_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_frame_handler.h">
+      <Filter>Header Files\image_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="pixel_border_highlighter.h">
+      <Filter>Header Files\image_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="image_element.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="image_segments.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="pixel.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_id.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="segment_meta_information.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+    <ClInclude Include="thread_safe_output_video.h">
+      <Filter>Header Files\video_handler</Filter>
+    </ClInclude>
+    <ClInclude Include="image_exception.h">
+      <Filter>Header Files\image_segmenter</Filter>
+    </ClInclude>
+  </ItemGroup>
+  <ItemGroup>
+    <ClCompile Include="main.cpp">
+      <Filter>Source Files</Filter>
+    </ClCompile>
+    <ClCompile Include="async_images_worker.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="color_distance_counter.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="disjoint_set.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="length.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="edge.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="element_id.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="element_id_exception.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_based_parameter_segmentation.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_based_frame_segmenter.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="graph_based_segment_service_functions.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="Image.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="image_element.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="image_segments.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_id.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="segment_meta_information.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+    <ClCompile Include="input_video.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="output_video.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="video_handler.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_video_handler_exception.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_video_handler.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_safe_input_video.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel_border_highlighter.cpp">
+      <Filter>Source Files\image_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="pixel_painter.cpp">
+      <Filter>Source Files\image_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="thread_safe_output_video.cpp">
+      <Filter>Source Files\video_handler</Filter>
+    </ClCompile>
+    <ClCompile Include="image_exception.cpp">
+      <Filter>Source Files\image_segmenter</Filter>
+    </ClCompile>
+  </ItemGroup>
+</Project>
